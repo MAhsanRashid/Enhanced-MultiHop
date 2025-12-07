@@ -13,7 +13,7 @@ Open-source implementation of multi-hop retrieval-augmented generation.
 # Full evaluation
 python src/evaluation.py
 
-# Test on 100 queries
+
 TEST_MODE=True python src/evaluation.py
 
 | Metric      | Baseline (GPT-4) | Ours         | Advantage         |
