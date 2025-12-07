@@ -1,1 +1,21 @@
-
+{
+  "metadata": {
+    "model": "llama3.1:8b",
+    "mode": "full",
+    "queries_evaluated": 2556,
+    "baseline_accuracy": 0.56
+  },
+  "metrics": {
+    "accuracy": 0.3333333333333333,
+    "correct_count": 852,
+    "relative_improvement_percent": -40.47619047619049
+  },
+  "per_type_accuracy": {
+    "unknown": 0.3333333333333333
+  },
+  "configuration": {
+    "retriever": "hybrid_keyword_entity",
+    "generator": "forced_short_answers",
+    "k_retrieved": 4
+  }
+}
